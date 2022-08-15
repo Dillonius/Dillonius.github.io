@@ -50,7 +50,7 @@ body {
 
 .terminalTextName {
   width: 13ch;
-  animation: typing 2s steps(13), blink .5s step-end infinite alternate;
+  animation: typing 1.3s steps(13), blink .5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
@@ -60,7 +60,7 @@ body {
 
 .terminalTextTitle {
   width: 18ch;
-  animation: typing 2.8s steps(18), blink .5s step-end infinite alternate;
+  animation: typing 1.8s steps(18), blink .5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
