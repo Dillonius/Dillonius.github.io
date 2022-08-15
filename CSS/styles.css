@@ -1,7 +1,44 @@
-h1{
-    color:blue;
+body {
+  background-color: black;
+  background-image: radial-gradient(
+    rgba(0, 150, 0, 0.75), black 120%
+  );
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  padding: 2rem;
+  font: 1.3rem Inconsolata, monospace;
+  text-shadow: 0 0 5px #C8C8C8;
 }
 
-h1:hover{
-    color:red;
+#grad1 {
+  height: 150px;
+  width: 200px;
+  background-image: radial-gradient(red 5%, green 15%, blue 60%);
+}
+
+
+@keyframes example {
+  0%   {left:-500px; top:0px;}
+  100%  {left:0px; top:0px;}
+
+}
+  
+
+#name{
+  color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: bold;
+    position:relative;
+    animation-name: example;
+    animation-duration: 1.5s;
+}
+
+#title{
+  color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: bold;
+    position:relative;
+    animation-name: example;
+    animation-duration: 3s;
 }
