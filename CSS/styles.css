@@ -17,14 +17,58 @@ body {
   background-image: radial-gradient(red 5%, green 15%, blue 60%);
 }
 
+.terminalText{
+  color: rgba(255, 255, 255, 0.836);
+    font-size: 2rem;
+    font-weight: bold;
+}
 
 @keyframes example {
   0%   {left:-500px; top:0px;}
   100%  {left:0px; top:0px;}
 
 }
-  
 
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+@keyframes hide {
+  0% {
+    opacity: 0
+  }
+  
+}
+
+.terminalTextName {
+  width: 13ch;
+  animation: typing 2s steps(13), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+}
+
+.terminalTextTitle {
+  width: 18ch;
+  animation: typing 3s steps(18), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+}
+  
+/*
 #name{
   color: rgb(255, 255, 255);
     font-size: 2rem;
@@ -42,3 +86,4 @@ body {
     animation-name: example;
     animation-duration: 3s;
 }
+*/
