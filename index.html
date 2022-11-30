@@ -16,61 +16,66 @@
             }
         }
 
-        function displayHome(){
+        function displayHome() {
             displaySection("Home");
         }
-        function displayEducation(){
+        function displayEducation() {
             displaySection("Education");
         }
-        function displayWork(){
+        function displayWork() {
             displaySection("Work");
         }
-        function displaySkills(){
+        function displaySkills() {
             displaySection("Skills");
         }
-        function displayProjects(){
+        function displayProjects() {
             displaySection("Projects");
         }
 
-        function displaySection(section){
+        function displaySection(section) {
 
-            switch (section){
-            case "Home":
-                document.getElementById("home").style.display = "block";
-                document.getElementById("education").style.display = "none";
-                document.getElementById("work").style.display = "none";
-                document.getElementById("skills").style.display = "none";
-                document.getElementById("projects").style.display = "none";
-                break;
-            case "Education":
-                document.getElementById("home").style.display = "none";
-                document.getElementById("education").style.display = "block";
-                document.getElementById("work").style.display = "none";
-                document.getElementById("skills").style.display = "none";
-                document.getElementById("projects").style.display = "none";
-                break;
-            case "Work":
-                document.getElementById("home").style.display = "none";
-                document.getElementById("education").style.display = "none";
-                document.getElementById("work").style.display = "block";
-                document.getElementById("skills").style.display = "none";
-                document.getElementById("projects").style.display = "none";
-                break;
-            case "Skills":
-                document.getElementById("home").style.display = "none";
-                document.getElementById("education").style.display = "none";
-                document.getElementById("work").style.display = "none";
-                document.getElementById("skills").style.display = "block";
-                document.getElementById("projects").style.display = "none";
-                break;
-            case "Projects":
-                document.getElementById("home").style.display = "none";
-                document.getElementById("education").style.display = "none";
-                document.getElementById("work").style.display = "none";
-                document.getElementById("skills").style.display = "none";
-                document.getElementById("projects").style.display = "block";
-                break;
+            switch (section) {
+                case "Home":
+                    document.getElementById("home").style.display = "block";
+                    document.getElementById("education").style.display = "none";
+                    document.getElementById("work").style.display = "none";
+                    document.getElementById("skills").style.display = "none";
+                    document.getElementById("projects").style.display = "none";
+                    break;
+                case "Education":
+                    document.getElementById("home").style.display = "none";
+                    document.getElementById("education").style.display = "block";
+                    document.getElementById("work").style.display = "none";
+                    document.getElementById("skills").style.display = "none";
+                    document.getElementById("projects").style.display = "none";
+                    break;
+                case "Work":
+                    document.getElementById("home").style.display = "none";
+                    document.getElementById("education").style.display = "none";
+                    document.getElementById("work").style.display = "block";
+                    document.getElementById("skills").style.display = "none";
+                    document.getElementById("projects").style.display = "none";
+                    break;
+                case "Skills":
+                    document.getElementById("home").style.display = "none";
+                    document.getElementById("education").style.display = "none";
+                    document.getElementById("work").style.display = "none";
+                    document.getElementById("skills").style.display = "block";
+                    document.getElementById("projects").style.display = "none";
+                    break;
+                case "Projects":
+                    document.getElementById("home").style.display = "none";
+                    document.getElementById("education").style.display = "none";
+                    document.getElementById("work").style.display = "none";
+                    document.getElementById("skills").style.display = "none";
+                    document.getElementById("projects").style.display = "block";
+                    break;
             }
+
+            window.scrollTo({
+                top: 0, left: 0, behavior: 'smooth'
+            });
+
         }
     </script>
 </head>
@@ -87,7 +92,7 @@
         <a href="#home" onclick="displayWork()"><i class="fa fa-fw fa-institution"></i> Work</a>
         <a href="#home" onclick="displaySkills()"><i class="fa fa-fw fa-lightbulb-o"></i> Skills</a>
         <a href="#home" onclick="displayProjects()"><i class="fa fa-fw fa-code"></i> Projects</a>
-        
+
     </div>
 
     <div class="home main" id="home">
