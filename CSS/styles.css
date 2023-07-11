@@ -1,121 +1,19 @@
 body {
   font-family: "Lato", sans-serif;
+  background-color: #87CEEB;
 }
 
-
-.sidenav {
-  height: 100%;
-  width: 20%;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  overflow-x: hidden;
-  padding-top: 20px;
-  border: 1px solid #111;
+h1{
+  color: #003478;
+  font-family: Impact, Haettenschweiler, 'Arial Wide Bold', sans-serif;
+  font-size: 6em;
 }
 
-.sidenav a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #424242;
-  display: block;
+#header{
+  width: 100%;
+  text-align: center;
 }
 
-.sidenav h1 {
-  text-decoration: none;
-  font-size: 25px;
-  color: #424242;
-}
-
-.sidenav a {
-  font-size: 1.2em;
-}
-
-.sidenav .icon {
-  display: none;
-}
-
-.sidenav a:hover {
-  color: #f1f1f1;
-  background-color: #111;
-}
-
-#education,
-#work,
-#skills,
-#projects {
-  display: none;
-}
-
-.main {
-  margin-left: 20%;
-  /* Same as the width of the sidenav */
-  font-size: 28px;
-  /* Increased text to enable scrolling */
-  padding: 0px 10px;
-}
-
-
-@media screen and (max-width: 700px) {
-  .sidenav {
-    width: 100%;
-    height: auto;
-    position: relative;
-  }
-
-  .sidenav a {
-    float: left;
-  }
-
-  div.content {
-    margin-left: 0;
-  }
-
-  .sidenav a {
-    text-align: center;
-    float: none;
-  }
-
-
-  .sidenav a {
-    display: none;
-  }
-
-  .sidenav a.icon {
-    float: right;
-    display: block;
-  }
-}
-
-
-
-
-
-
-@media screen and (max-width: 700px) {
-
-  body{display:flex;flex-direction:column;align-items:center;}
-
-  .sidenav.responsive a.icon,.sidenav a.icon {
-    position: absolute;
-    right: 0;
-    top: 20px;
-  }
-
-  .sidenav {
-    flex:1;
-  }
-
-
-
-  .sidenav.responsive a {
-    display: block;
-    text-align: left;
-  }
-
-  content{
-    flex:2;
-  }
+#carouselExampleControls{
+  margin: 10px;
 }
