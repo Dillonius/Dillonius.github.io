@@ -1,0 +1,43 @@
+body {}
+
+header {
+    text-align: center;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    background-color: #d4a373;
+    color: #5F4933;
+}
+
+h1 {
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    rotate: 0 0 1 340deg;
+    font-size: 3em
+}
+
+#mainContent {
+    margin-top: 2em;
+    margin-left: 8em;
+    margin-right: 8em;
+    min-height: 60vh;
+}
+
+#googlePlayButton {
+    margin: auto;
+    display: block;
+}
+
+footer {
+    background-color: #d4a373;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    margin-top: auto;
+}
+
+.socMeds {
+    grid-column: 2/3;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
