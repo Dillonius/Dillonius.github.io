@@ -41,3 +41,8 @@ footer {
     display: grid;
     grid-template-columns: auto auto auto;
 }
+
+#doghouse{
+    margin:auto;
+    display: block;
+}
