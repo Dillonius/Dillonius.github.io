@@ -47,3 +47,20 @@ footer {
     margin: auto;
     display: block;
 }
+
+@media screen and (max-width: 1250px) {
+    #mainContent {
+        margin-top: 2em;
+        margin-left: 4em;
+        margin-right: 4em;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    #mainContent {
+        margin-top: 2em;
+        margin-left: 1em;
+        margin-right: 1em;
+        min-height: 60vh;
+    }
+}
