@@ -46,6 +46,8 @@ footer {
 #doghouse {
     margin: auto;
     display: block;
+    width: 30%;
+    height: auto;
 }
 
 @media screen and (max-width: 1250px) {
