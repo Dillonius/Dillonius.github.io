@@ -2,24 +2,24 @@ body {}
 
 header {
     text-align: center;
-    padding-top: 3em;
-    padding-bottom: 3em;
-    background-color: #d4a373;
-    color: #5F4933;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    background-color: #B1E4F2;
+    color: #023047;
 }
 
 h1 {
-    font-family: "Protest Riot", sans-serif;
-    font-weight: 800;
+    font-family: "Rubik Mono One", sans-serif;
+    font-weight: 400;
     font-style: normal;
-    rotate: 0 0 1 340deg;
+    /*rotate: 0 0 1 340deg;*/
     font-size: 3em
 }
 
 #mainContent {
     margin-top: 2em;
-    margin-left: 8em;
-    margin-right: 8em;
+    margin-left: 10em;
+    margin-right: 10em;
     min-height: 60vh;
 }
 
@@ -29,11 +29,12 @@ h1 {
 }
 
 footer {
-    background-color: #d4a373;
+    background-color: #B1E4F2;
     display: grid;
     grid-template-columns: auto auto auto;
     text-align: center;
     margin-top: auto;
+    color: #023047;
 }
 
 .socMeds {
@@ -42,7 +43,7 @@ footer {
     grid-template-columns: auto auto auto;
 }
 
-#doghouse{
-    margin:auto;
+#doghouse {
+    margin: auto;
     display: block;
 }
