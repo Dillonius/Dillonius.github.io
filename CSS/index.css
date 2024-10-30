@@ -1,4 +1,9 @@
-body {}
+#mainContent {
+    background-image: linear-gradient( #001e35 , #2f0042);
+    
+    height: 500vh;
+    width: 100%;
+}
 
 header {
     text-align: center;
@@ -14,13 +19,6 @@ h1 {
     font-style: normal;
     /*rotate: 0 0 1 340deg;*/
     font-size: 3em
-}
-
-#mainContent {
-    margin-top: 2em;
-    margin-left: 10em;
-    margin-right: 10em;
-    min-height: 60vh;
 }
 
 #googlePlayButton {
@@ -50,19 +48,3 @@ footer {
     height: auto;
 }
 
-@media screen and (max-width: 1250px) {
-    #mainContent {
-        margin-top: 2em;
-        margin-left: 4em;
-        margin-right: 4em;
-    }
-}
-
-@media screen and (max-width: 750px) {
-    #mainContent {
-        margin-top: 2em;
-        margin-left: 1em;
-        margin-right: 1em;
-        min-height: 60vh;
-    }
-}
